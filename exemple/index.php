@@ -7,10 +7,7 @@
 require '../bootstrap.php';
 
 $nodes = [
-    10, 85, 15,
-    70, 20, 60, 30,
-    50, 65, 80, 90,
-    40, 5, 55
+    45, 32, 70, 20, 60, 85, 10, 50, 65, 90
 ];
 $tree = new Jihel\Library\RBTree\Tree();
 foreach ($nodes as $id) {
@@ -19,10 +16,7 @@ foreach ($nodes as $id) {
 }
 
 $removeNode = [
-    30,
-    70,
-    60,
-    15,
+
 ];
 
 foreach ($removeNode as $id) {
